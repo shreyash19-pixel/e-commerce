@@ -106,27 +106,27 @@ export const ResponsiveNav = styled.div`
     {
         width: 100%;
         height: 100vh;
-        height: 100dvh;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 60px;
+        gap: 40px;
         background-color: white;
         position: absolute;
         top: 0;
-        animation : left .8s ease-out;
+        left:0px;
+        animation : left .4s ease-out;
         font-size: 22px;
         z-index: 99999;
-        overflow: hidden;
 
         @keyframes left {
         from {
-            left: -1000px;
+            transform: translate(-100%);
         }
         to {
-            left: 0px;
+            transform: translate(0);
         }
         }
     }
 `
+
