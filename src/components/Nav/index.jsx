@@ -5,6 +5,7 @@ import { MdShoppingCart } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 
+
 const Nav = () => {
     
     const [nav, setNav] = useState(false)

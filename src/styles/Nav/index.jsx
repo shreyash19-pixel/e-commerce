@@ -7,12 +7,17 @@ export const NavbarWrap = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #efefef;
     box-shadow: 0 10px 20px 0 rgba(133, 133, 133, 0.1);
+    position: fixed;
+    top:0px;
+    left: 0px;
+    z-index: 99;
 `
 
 export const NavBar = styled.div`
     width: 100%;
-    max-width: 1240px;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
